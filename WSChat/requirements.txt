@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+gunicorn
+python-multipart
+python-jose[cryptography]
+passlib[bcrypt]
+requests
+jinja2
+faker

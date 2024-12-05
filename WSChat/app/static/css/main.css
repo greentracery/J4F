@@ -1,0 +1,63 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgb(50,50,50);
+    color: rgb(220,220,220);
+    opacity: 0.9;
+    padding: 10px;
+}
+header h1, h3, form {
+    opacity:1;
+}
+
+main {
+    padding: 20px;
+}
+
+#messages {
+    border: 1px solid #ddd;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(50,50,50);
+    color: rgb(220,220,220);
+    opacity: 0.9;
+    padding: 10px;
+}
+
+.red {
+    color: rgb(200,0,0);
+}
+.green {
+    color: rgb(0,200,0);
+}
+
+.blue {
+    color: rgb(0,0,200);
+}
+
+.black {
+    color: rgb(10,10,10);
+}
+
+.gray {
+    color: rgb(80,80,80);
+}
+
+.purple {
+    color: rgb(128,0,128);
+}
+.maroon {
+    color: rgb(128,0,0);
+}
